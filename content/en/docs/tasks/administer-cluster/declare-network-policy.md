@@ -35,7 +35,7 @@ The above list is sorted alphabetically by product name, not by recommendation o
 To see how Kubernetes network policy works, start off by creating an `nginx` Deployment.
 
 ```console
-kubectl create deployment nginx --image=nginx
+kubectl create deployment nginx --image=nginxinc/nginx-unprivileged
 ```
 ```none
 deployment.apps/nginx created
